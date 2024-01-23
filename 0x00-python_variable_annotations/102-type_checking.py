@@ -9,7 +9,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     validating the piece of code by applying the necessary changes
     """
-    zoomed_in: Tuple = [
+    zoomed_in: List = [
         item for item in lst for i in range(factor)
     ]
     return zoomed_in
